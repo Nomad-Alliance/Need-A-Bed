@@ -1,0 +1,51 @@
+{
+  "GlobalTran": {
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "continue": "Continue"
+  },
+  "HomeTran": {
+    "appName": "NAB",
+    "welcome": "Need a bed?",
+    "homeIntro": "Let the Nomad Alliance help you \n find shelter for the night",
+    "homeBtn": "Nab a bed",
+    "feedback": "Feedback"
+  },
+  "LocTran": {
+    "locQ": "Enable Location Services?",
+    "lYes": "Yes, I agree",
+    "lNo": "Enter manually"
+  },
+  "AddressTran": {
+    "street": "Street",
+    "city": "City",
+    "state": "State"
+  },
+  "QuestionTran": {
+    "text": "Check All That Apply to You",
+    "contBtn": "Continue",
+    "LGBTQ": "LGBTQ+",
+    "Veteran": "Veteran",
+    "Victim_DV": "Victim of domestic violence",
+    "Childern": "Have custody of children who stay with me",
+    "Pregnant": "Pregnant",
+    "Dog": "Have a dog/cat with me",
+    "PC": "Person of Color",
+    "Disabled": "Disabled",
+    "notEnglish": "English is not my first language",
+    "Deaf": "Deaf",
+    "No_Room": "Didn't have a bed",
+    "No_Shelter": "Didn't make it to shelter",
+    "Felt_Safe": "Felt unsafe",
+    "Felt_Discriminated": "Felt discriminated against",
+    "OtherFeedback": "Please provide any other feedback you have for this shelter..."
+  },
+  "MapTran": {
+    "text": "Shelters nearby:"
+  },
+  "ShelterTran": {
+    "directions": "Get directions",
+    "call": "Call",
+    "confirm": "Confirm going to shelter"
+  }
+}

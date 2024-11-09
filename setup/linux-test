@@ -1,0 +1,18 @@
+#!/bin/bash
+# Use this script to run all tests
+
+# should exit script if any command fails
+set -e
+
+# Switch into the backend directory, test backend
+cd ../django/DjangoNAB
+
+echo "Testing backend..."
+python manage.py test
+
+
+# Switch into the frontend directory, test frontend
+cd ../../react
+
+echo "Starting frontend server..."
+npx expo

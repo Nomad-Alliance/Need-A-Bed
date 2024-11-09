@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Commands to install dependancies for the front and backend.
+# Frontend is node/npm and backend is python/pip
+
+# Check if Python version is 3.8 or higher
+if python3 -c 'import sys; assert sys.version_info >= (3,8)' 2>/dev/null; then
+    python_version=$(python3 -c 'import sys; print(".".join(str(x) for x in sys.version_info[:3]))')
+    echo "Python version $python_version is valid"
+else
+    echo "Python version is not 3.8 or higher. Please install a python version that is 3.8 or higher manually."
+    exit 1
+fi
+
+# Check node.js version
+if node -v >/dev/null && [ $(node -v | sed -e 's/v//' -e 's/\..*//') -ge 18 ]; then
+    node_version=$(node -v | sed 's/v//')
+    echo "Node.js version $node_version is valid"
+else
+    echo "Node.js version is not 18 or higher."
+fi
+
+echo "Installing backend dependencies..."
+pip install -r django/DjangoNAB/requirements.txt
+
+echo "Installing frontend dependencies..."
+npm install
+
+echo "Environment setup complete."
+exit 1

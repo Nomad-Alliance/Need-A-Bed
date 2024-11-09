@@ -1,0 +1,51 @@
+{
+  "GlobalTran": {
+    "submit": "Enviar",
+    "confirm": "Confirmar",
+    "continue": "Continuar"
+  },
+  "HomeTran": {
+    "appName": "NAB",
+    "welcome": "¿Necesitas una cama?",
+    "homeIntro": "Deja que la Alianza Nómada te ayude \na encontrar un refugio para pasar la noche",
+    "homeBtn": "Atrapar una cama",
+    "feedback": "Comentarios"
+  },
+  "LocTran": {
+    "locQ": "¿Activar los servicios de ubicación?",
+    "lYes": "Sí, estoy de acuerdo",
+    "lNo": "Introducir manualmente"
+  },
+  "AddressTran": {
+    "street": "Calle",
+    "city": "Ciudad",
+    "state": "Estado"
+  },
+  "QuestionTran": {
+    "text": "Marque todas las opciones que le correspondan",
+    "contBtn": "Continuar",
+    "LGBTQ": "LGBTQ+",
+    "Veteran": "Veterano",
+    "Victim_DV": "Víctima de violencia doméstica",
+    "Childern": "Tiene la custodia de niños que están conmigo",
+    "Pregnant": "Embarazada",
+    "Dog": "Tengo un perro/gato conmigo",
+    "PC": "Persona de color",
+    "Disabled": "Discapacitado",
+    "notEnglish": "El inglés no es mi lengua materna",
+    "Deaf": "Sordo",
+    "No_Room": "No había camas",
+    "No_Shelter": "No llegué al refugio",
+    "Felt_Safe": "Me sentí inseguro",
+    "Felt_Discriminated": "Sentí discriminación",
+    "OtherFeedback": "Por favor, proporcione cualquier otro comentario que tenga sobre este refugio..."
+  },
+  "MapTran": {
+    "text": "Refugios cercanos:"
+  },
+  "ShelterTran": {
+    "directions": "Obtener indicaciones",
+    "call": "Llamar",
+    "confirm": "Confirmar que irá al refugio"
+  }
+}

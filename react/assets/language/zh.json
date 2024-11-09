@@ -1,0 +1,22 @@
+
+{
+    "HomeTran": {
+        "appName": "NAB",
+        "welcome": "你好！ 歡迎來到需要一張床",
+        "homeIntro": "讓 Nomad Alliance 幫助您找到過夜的住所.",
+        "homeBtn": "按我\n開始"
+    },
+
+    "LocTran": {
+        "locQ": "我們可以獲取您的 GPS 位置嗎",
+        "lYes" : "是的我同意",
+        "lNo": "不，去手動"
+    },
+
+    "QuestionTran": {
+        "text": "選中所有適用於您的內容",
+        "contBtn": "按我\n繼續"
+    }
+  }
+
+  

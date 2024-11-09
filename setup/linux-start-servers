@@ -1,0 +1,13 @@
+#!/bin/bash
+# Use this script to start both the frontend and backend servers
+
+# should exit script if any command fails
+set -e
+
+cd ../django/DjangoNAB
+echo "Starting backend server..."
+python manage.py runserver 0.0.0.0:8000 &
+
+cd ../../react
+echo "Starting frontend server..."
+npx expo
